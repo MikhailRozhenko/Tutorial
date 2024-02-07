@@ -1,0 +1,25 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+input {
+  padding: 8px;
+  font-family: inherit;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.fogg {
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.form-input:checked {
+  box-shadow: 10px 10px 10px 10px orangered;
+  outline: green solid 20px;
+}
